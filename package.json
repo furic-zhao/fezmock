@@ -1,0 +1,20 @@
+{
+  "name": "fezmock",
+  "version": "1.0.0",
+  "description": "前端数据模拟开发框架",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/furic-zhao/fezmock.git"
+  },
+  "keywords": [
+    "前后端分离"
+  ],
+  "author": "furic-zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/furic-zhao/fezmock/issues"
+  },
+  "homepage": "https://github.com/furic-zhao/fezmock#readme"
+}
