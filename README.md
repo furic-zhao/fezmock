@@ -66,3 +66,7 @@ import fezmock from 'fezmock';
   }]
 }
 ````
+
+## FEZMOCK使用文档
+
+[FEZMOCK WIKI](https://github.com/furic-zhao/fezmock/wiki)
