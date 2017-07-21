@@ -3,8 +3,10 @@
  * https://github.com/furic-zhao/fezmock
  * ================================== */
 
-var mock = require('./handler');
+var handler = require('./handler');
 
-module.exports = function(mockData) {
-  return mock.gen(mockData);
-};
+module.exports = {
+  mock: function(mockData) {
+    return handler.gen(mockData);
+  }
+}
