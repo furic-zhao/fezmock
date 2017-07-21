@@ -1,6 +1,6 @@
 {
   "name": "fezmock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "前端数据模拟开发框架",
   "main": "index.js",
   "scripts": {},
@@ -9,7 +9,10 @@
     "url": "git+ssh://git@github.com/furic-zhao/fezmock.git"
   },
   "keywords": [
-    "前后端分离"
+    "前后端分离",
+    "随机数据",
+    "模拟JSON数据",
+    "数据模拟"
   ],
   "author": "furic-zhao",
   "license": "MIT",
