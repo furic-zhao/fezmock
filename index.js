@@ -4,9 +4,11 @@
  * ================================== */
 
 var handler = require('./handler');
+var Random = require('./random');
 
 module.exports = {
   mock: function(mockData) {
     return handler.gen(mockData);
-  }
+  },
+  Random: Random
 }

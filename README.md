@@ -30,13 +30,13 @@ useMock: {
 
 ````bash
 /* @if MOCK */
-import mock from 'fezmock';
+import fezmock from 'fezmock';
 /* @endif */
 ````
 
 ````bash
 /* @if MOCK */
-  let rtnData = mock({
+  let rtnData = fezmock.mock({
     "data|2": [{
       "name": '@cword(80)',
       "price": "@natural(3000, 8000).00",
@@ -66,4 +66,3 @@ import mock from 'fezmock';
   }]
 }
 ````
-
