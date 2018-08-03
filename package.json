@@ -1,6 +1,6 @@
 {
   "name": "fezmock",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "前端数据模拟开发框架",
   "main": "index.js",
   "scripts": {},
