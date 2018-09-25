@@ -241,9 +241,9 @@ module.exports = {
   */
   dataImage: function(size, text) {
     // var canvas
-    // if (typeof document !== 'undefined') {
-    //   canvas = document.createElement('canvas')
-    // } else {
+    if (typeof document !== 'undefined') {
+      canvas = document.createElement('canvas')
+    } else {
       /*
           https://github.com/Automattic/node-canvas
               npm install canvas --save
@@ -254,9 +254,9 @@ module.exports = {
 
           PS：node-canvas 的安装过程实在是太繁琐了，所以不放入 package.json 的 dependencies。
        */
-    //   var Canvas = module.require('canvas')
-    //   canvas = new Canvas()
-    // }
+      var Canvas = module.require('canvas')
+      canvas = new Canvas()
+    }
 
     var canvas = document.createElement('canvas')
     var ctx = canvas && canvas.getContext && canvas.getContext("2d")
